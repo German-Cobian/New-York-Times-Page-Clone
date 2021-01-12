@@ -104,3 +104,72 @@ color: #FFF;
   font-size: 15px;
   line-height: 20px;
 }
+
+.art-nav {
+  max-width: 600px;
+  margin-left: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.soc-media {
+  margin: 7px;
+}
+
+.art-foot-notes {
+  margin-left: 270px;
+  max-width: 560px;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.art-h2 {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 20px;
+}
+
+.inflation-theory {
+  width: 850px;
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-comment {
+  width: 212px;
+  height: 150px;
+  margin-top: 130px;
+  padding-right: 3px;
+  padding-left: 3px;
+  font-family: nyt-franklin, arial, helvetica, 'sans serif';
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.inflation-theory-caption {
+  margin-left: 200px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.infl-th-h3 {
+  margin-left: 200px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+
+.infl-th-comment {
+  margin-left: 200px;
+  width: 850px;
+  font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+}
