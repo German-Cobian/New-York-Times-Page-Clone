@@ -228,7 +228,22 @@ color: #FFF;
   border: 1px solid black;
   grid-area: first;
 }
+ .sugg-news-childs {
+   display: flex;
+   justify-content: space-between;
+ }
+.suggested-option {
+  border: 1px solid grey;
+  width: 33%;
+}
 
+.sugg-opt-buttn {
+  border-radius: 50%;
+  font-size: 18px;
+  border: 0.5px solid black;
+
+
+}
 .most-popular {
   border: 1px solid black;
   grid-area: second;
@@ -237,4 +252,15 @@ color: #FFF;
 .space-astronomy {
   border: 1px solid black;
   grid-area: third;
+}
+
+.space-astr-childs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.spac-astr-option {
+  border: 1px solid grey;
+  width: 313px;
 }
