@@ -131,6 +131,44 @@ color: #FFF;
   font-size: 20px;
 }
 
+/* editor's picks section */
+
+.editors-picks {
+  border: 1px solid black;
+  position: absolute;
+  padding-left: 0;
+  width: 210px;
+  height: auto;
+  float: right;
+  margin-left: 950px;
+  margin-top: 850px;
+}
+
+.editors-picks h4 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.editors-picks img {
+  display: block;
+  float: left;
+  padding: 7px;
+}
+
+.editors-picks a {
+  padding-top: 5px;
+  margin-right: 15px;
+  display: block;
+  width: 210px;
+  height: 80px;
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* inflation theory section*/
+
 .inflation-theory {
   width: 850px;
   margin-left: 200px;
@@ -172,4 +210,31 @@ color: #FFF;
   font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
   font-size: 12px;
   color: rgb(102, 102, 102);
+}
+
+/* additional topics */
+
+.additional-topics {
+  display: grid;
+  grid-template-columns: 314px 314px 314px 314px;
+  grid-template-rows: 352px 338px 338px;
+  grid-template-areas:
+      "first first first second"
+      "third third third second"
+      "third third third second"
+}
+
+.suggested-newsletters {
+  border: 1px solid black;
+  grid-area: first;
+}
+
+.most-popular {
+  border: 1px solid black;
+  grid-area: second;
+}
+
+.space-astronomy {
+  border: 1px solid black;
+  grid-area: third;
 }
