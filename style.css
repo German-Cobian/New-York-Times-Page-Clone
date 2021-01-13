@@ -217,7 +217,7 @@ color: #FFF;
 .additional-topics {
   display: grid;
   grid-template-columns: 314px 314px 314px 314px;
-  grid-template-rows: 352px 338px 338px;
+  grid-template-rows: 365px 340px 340px;
   grid-template-areas:
       "first first first second"
       "third third third second"
@@ -300,4 +300,46 @@ margin-left: 4%;
 .spac-astr-option {
   border: 1px solid grey;
   width: 313px;
+}
+
+.cosmic-img {
+  margin-top: -15px;
+  margin-left: -34px;
+}
+
+.cosmic-figcap {
+  margin-left: -25px;
+  line-height: 20px;
+  color: #888;
+  font-size: 10px;
+  text-align: right;
+}
+
+.cosmic-title {
+  margin-left: 10px;
+}
+
+.cosmic-date {
+  margin-left: 10px;
+  color: #888;
+  font-size: 13px;
+}
+
+
+/* New York Times links lists */
+
+.links-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.links-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-table a {
+  text-decoration: none;
+  color: #666;
 }
