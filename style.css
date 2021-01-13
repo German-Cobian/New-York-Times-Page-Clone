@@ -233,7 +233,7 @@ color: #FFF;
    justify-content: space-between;
  }
 .suggested-option {
-  border: 1px solid grey;
+  border: 0.5px solid grey;
   width: 33%;
 }
 
@@ -241,9 +241,46 @@ color: #FFF;
   border-radius: 50%;
   font-size: 18px;
   border: 0.5px solid black;
+  grid-area: bttn-area;
+margin-top: 35%;
+margin-right: 40%;
+}
 
+.sugg-opt-img {
+  grid-area: img-area;
+  margin-bottom: 0%;
+  margin-top: auto;
+  margin-left: 10%;
 
 }
+.sugg-opt-img-buttn {
+  width: 100%;
+  height: 91px;
+  display: grid;
+  grid-template-columns: 30% 55% 15%;
+  grid-template-rows: 45% 55%;
+  grid-template-areas: "img-area . bttn-area"
+                       "img-area . ."
+
+}
+
+.sugg-opt-p1 {
+  margin-left: 4%;
+  }
+
+.sugg-opt-h3{
+margin-left: 4%;
+
+  }
+
+.sugg-opt-p2 {
+margin-left: 4%;
+  }
+
+.sugg-opt-a {
+  margin-left: 4%;
+}
+
 .most-popular {
   border: 1px solid black;
   grid-area: second;
