@@ -18,7 +18,7 @@ body header {
   border-bottom: 1px solid #ccc;
   position: fixed;
   z-index: 999;
-  background-color:#fff;
+  background-color: #fff;
   top: 0;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -221,7 +221,7 @@ body header {
 .infl-th-comment {
   margin-left: 200px;
   width: 850px;
-  font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
+  font-family: georgia, "times new roman", times, serif;
   font-size: 12px;
   color: rgb(102, 102, 102);
 }
@@ -234,9 +234,9 @@ body header {
   grid-template-columns: 314px 314px 314px 314px;
   grid-template-rows: 365px 340px 340px;
   grid-template-areas:
-          "first first first second"
-          "third third third second"
-          "third third third second";
+            "first first first second"
+            "third third third second"
+            "third third third second";
 }
 
 .suggested-newsletters {
