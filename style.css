@@ -234,9 +234,9 @@ body header {
   grid-template-columns: 314px 314px 314px 314px;
   grid-template-rows: 365px 340px 340px;
   grid-template-areas:
-            "first first first second"
-            "third third third second"
-            "third third third second";
+    "first first first second"
+    "third third third second"
+    "third third third second";
 }
 
 .suggested-newsletters {
