@@ -87,7 +87,7 @@ body header {
 /* article text area */
 
 .art-author, .art-date {
-  margin-left: 270px; 
+  margin-left: 270px;
 }
 
 .art-h2 {
@@ -407,12 +407,13 @@ footer {
   margin-right: 5px;
 }
 
-.links-column, .subscribe {
+.links-column,
+.subscribe {
   border-left: 1px solid #ccc;
 }
 
-.subscribe-separator, #educ-rate { 
-  border-bottom: 1px solid #ccc; 
+.subscribe-separator, #educ-rate {
+  border-bottom: 1px solid #ccc;
 }
 
 .subsc-img-anch a {
