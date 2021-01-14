@@ -83,6 +83,11 @@ body header {
 .art-author, 
 .art-date { margin-left: 270px; }
 
+.art-h2 {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 20px;
+}
+
 .art-text {
   margin-left: 270px;
   display: flex;
@@ -108,6 +113,15 @@ body header {
   line-height: 20px;
 }
 
+.art-foot-notes {
+  margin-left: 270px;
+  max-width: 560px;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 11px;
+  line-height: 20px;
+}
+
 .foot-notes-links {
   color: rgb(102, 102, 102);
 }
@@ -126,20 +140,6 @@ body header {
 
 .soc-media {
   margin: 7px;
-}
-
-.art-foot-notes {
-  margin-left: 270px;
-  max-width: 560px;
-  color: #666;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 11px;
-  line-height: 20px;
-}
-
-.art-h2 {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 20px;
 }
 
 /* editor's picks section */
@@ -361,6 +361,7 @@ body header {
 }
 
 /* New York Times links lists */
+
 footer {
   width: 1256px;
   margin-left: 40px;
@@ -436,6 +437,8 @@ footer {
   font-size: 10px;
   padding-top: 10px;
 }
+
+/* New York Times links bar */
 
 .footer-nyt-links {
   width: 1000px;

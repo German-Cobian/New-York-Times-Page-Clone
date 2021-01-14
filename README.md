@@ -7,18 +7,15 @@ This is the first project in Microverse's HML and CSS module. It consists of a r
 ![screenshot](./screenshot.png)
 
 
-
 Built With
 
 Html
 CSS
 
 
-
 Live Demo
 
 https://german-cobian.github.io/Project1-Html-Css/
-
 
 
 Getting Started
@@ -28,7 +25,6 @@ Visit the live version on the link above.
 To get a local copy up and running follow these simple example steps:
 
 Download the .zip file to your machine, extract everything and open the index.html file in your browser.
-
 
 
 Authors
