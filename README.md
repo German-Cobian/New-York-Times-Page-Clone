@@ -2,6 +2,7 @@
 
 This is the first project in Microverse's HML and CSS module. It consists of a reproduction of the New York Times website. It displays the text, images and video of the original on the given day. Advertisements and many of the interactive elements have been left out.
 
+![screenshot](./screenshot.png)
 
 Built With
 
