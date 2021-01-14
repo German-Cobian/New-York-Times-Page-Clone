@@ -86,7 +86,8 @@ body header {
 
 /* article text  area */
 
-.art-author, .art-date {
+.art-author,
+.art-date {
   margin-left: 270px;
 }
 
@@ -412,7 +413,8 @@ footer {
   border-left: 1px solid #ccc;
 }
 
-.subscribe-separator, #educ-rate {
+.subscribe-separator,
+#educ-rate {
   border-bottom: 1px solid #ccc;
 }
 
