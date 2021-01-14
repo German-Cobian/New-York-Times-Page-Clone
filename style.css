@@ -407,7 +407,7 @@ footer {
   margin-right: 5px;
 }
 
-.links-column .subscribe {
+.links-column, .subscribe {
   border-left: 1px solid #ccc;
 }
 
