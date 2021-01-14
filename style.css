@@ -80,13 +80,10 @@ body header {
   line-height: 20px;
 }
 
-.art-author {
+.art-author, .art-date {
   margin-left: 270px;
 }
 
-.art-date {
-  margin-left: 270px;
-}
 
 .art-text {
   margin-left: 270px;
@@ -408,9 +405,10 @@ footer {
   border-left: 1px solid #ccc;
 }
 
-.subscribe-separator {
+.subscribe-separator, #educ-rate  {
   border-bottom: 1px solid #ccc;
 }
+
 
 .subsc-img-anch a {
   display: block;
@@ -420,10 +418,6 @@ footer {
 .subsc-img-anch img {
   display: block;
   float: left;
-}
-
-#educ-rate {
-  border-bottom: 1px solid #ccc;
 }
 
 .ttom-nyt-logo {
