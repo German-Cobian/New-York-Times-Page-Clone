@@ -81,7 +81,10 @@ body header {
 }
 
 .art-author, 
-.art-date { margin-left: 270px; }
+.art-date 
+{ 
+  margin-left: 270px; 
+}
 
 .art-h2 {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
@@ -405,7 +408,10 @@ footer {
 }
 
 .subscribe-separator, 
-#educ-rate { border-bottom: 1px solid #ccc; }
+#educ-rate 
+{ 
+  border-bottom: 1px solid #ccc; 
+}
 
 .subsc-img-anch a {
   display: block;
