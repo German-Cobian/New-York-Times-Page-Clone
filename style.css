@@ -33,7 +33,6 @@ body header {
 .top-nav-logo {
   margin-left: 290px;
   margin-right: 220px;
-
 }
 
 .top-nav-bttn {
@@ -57,7 +56,7 @@ body header {
 
 .art-title {
   color: #121212;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times,serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
   font-size: 40px;
@@ -203,7 +202,7 @@ body header {
   margin-top: 130px;
   padding-right: 3px;
   padding-left: 3px;
-  font-family: nyt-franklin, arial, helvetica, 'sans serif';
+  font-family: arial, helvetica, 'sans serif';
   font-size: 12px;
   line-height: 17px;
 }
@@ -218,7 +217,6 @@ body header {
   margin-left: 200px;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
-
 
 .infl-th-comment {
   margin-left: 200px;
@@ -236,9 +234,9 @@ body header {
   grid-template-columns: 314px 314px 314px 314px;
   grid-template-rows: 365px 340px 340px;
   grid-template-areas:
-        "first first first second"
-        "third third third second"
-        "third third third second"
+          "first first first second"
+          "third third third second"
+          "third third third second";
 }
 
 .suggested-newsletters {
@@ -246,7 +244,7 @@ body header {
   border-top: 1px solid #000;
 }
 
- .sugg-news-childs {
+.sugg-news-childs {
   display: flex;
   justify-content: space-between;
 }
@@ -264,8 +262,7 @@ body header {
   display: grid;
   grid-template-columns: 82px auto 150px;
   grid-template-rows: 82px 15px auto auto auto;
-  grid-template-areas:
-        "img-area . bttn-area"
+  grid-template-areas: "img-area . bttn-area";
 }
 
 .sugg-opt-img {
@@ -381,13 +378,12 @@ footer {
   justify-content: space-between;
   margin-left: 15px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
 }
 
 .links-column {
   display: flex;
   flex-direction: column;
-
 }
 
 .links-column a {
@@ -416,12 +412,12 @@ footer {
   border-bottom: 1px solid #ccc;
 }
 
-.subsc-img-anch a{
+.subsc-img-anch a {
   display: block;
   margin-left: 20px;
 }
 
-.subsc-img-anch img{
+.subsc-img-anch img {
   display: block;
   float: left;
 }
@@ -458,7 +454,7 @@ footer {
   justify-content: space-around;
 }
 
-.footer-nyt-links a{
+.footer-nyt-links a {
   color: #666;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 9px;
