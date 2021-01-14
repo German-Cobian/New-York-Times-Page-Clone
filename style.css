@@ -9,6 +9,8 @@ body header {
   align-items: center;
 }
 
+/* top navigation bar */
+
 .top-nav {
   display: flex;
   width: 100%;
@@ -42,6 +44,8 @@ body header {
   border-radius: 3px;
   color: #fff;
 }
+
+/* article top */
 
 .introduction {
   margin-top: 90px;
@@ -80,9 +84,9 @@ body header {
   line-height: 20px;
 }
 
-.art-author, 
-.art-date 
-{ 
+/* article text area */
+
+.art-author, .art-date {
   margin-left: 270px; 
 }
 
@@ -407,9 +411,7 @@ footer {
   border-left: 1px solid #ccc;
 }
 
-.subscribe-separator, 
-#educ-rate 
-{ 
+.subscribe-separator, #educ-rate { 
   border-bottom: 1px solid #ccc; 
 }
 
