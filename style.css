@@ -235,9 +235,9 @@ body header {
 /* additional topics */
 
 .additional-topics {
-  margin-left: 80px;
+  margin-left: 20px;
   display: grid;
-  grid-template-columns: 314px 314px 314px 314px;
+  grid-template-columns: 290px 290px 290px 314px;
   grid-template-rows: 365px 340px 340px;
   grid-template-areas:
     "first first first second"
@@ -256,7 +256,7 @@ body header {
 }
 
 .suggested-option {
-  width: 300px;
+  width: 275px;
   height: 280px;
   border: 1px solid #ccc;
   margin: 5px;
@@ -345,7 +345,8 @@ body header {
 }
 
 .spac-astr-option {
-  width: 313px;
+  border: 1px solid black;
+  width: 288px;
 }
 
 .cosmic-img {
@@ -374,7 +375,7 @@ body header {
 /* New York Times links lists */
 
 footer {
-  width: 1256px;
+  width: 1180px;
   margin-left: 40px;
   border-top: 1px solid #ccc;
 }
