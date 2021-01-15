@@ -232,6 +232,40 @@ body header {
   color: rgb(102, 102, 102);
 }
 
+/* opinion survey form */
+
+#survey-form {
+  width: 40%;
+  margin: 2rem auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#description {
+  color: blue;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+textarea {
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+#btn {
+  color: red;
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
 /* additional topics */
 
 .additional-topics {

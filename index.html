@@ -440,6 +440,43 @@
         <a class="soc-media" href="#"><img src="./assets/forward-arrow.png" width="20" alt="Forward arrow"></a>
       </nav>
     </section>
+    
+    <form id="survey-form" action="#">
+
+      <p id="description">
+        We are interested to know what is your opinion on this article. Give us some feedback.
+      </p>
+
+      <fieldset>
+      <label>Name</label>
+      <input name="name" type="text" placeholder="Your name here" required maxlength="20"/>
+      <label>email</label>
+      <input type="email" placeholder="Your email here" required maxlength="20"/>
+      </fieldset>
+      
+      <label>Comments</label>
+      <textarea name="username" placeholder="Type your comment here" required maxlength="250"></textarea>
+
+
+      <fieldset>
+        <p class="">What is your overall opinion about this article?</p>
+        <input id="plus" type="radio" name="opinion" value="positive"/>Positive
+        <input id="minus" type="radio" name="opinion" value="negative"/>Negative
+        <input id="zero" type="radio" name="opinion" value="neutral"/>Neutral
+      </fieldset>
+
+      <fieldset>
+        <p>I want to suscribe to this newsletter</p>
+        <input type="checkbox" name="choice"/>Yes!
+        <input type="checkbox" name="choice"/>No
+      </fieldset>
+
+      <button id="btn" type="submit" name="submit" value="send">Send</button>
+
+    </form>
+
+
+
 
     <section class="additional-topics">
 
