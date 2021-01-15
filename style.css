@@ -157,7 +157,6 @@ body header {
 /* editor's picks section */
 
 .editors-picks {
-  border: 1px solid black;
   position: absolute;
   padding-left: 0;
   width: 210px;
