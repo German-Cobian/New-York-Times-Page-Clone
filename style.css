@@ -1,0 +1,468 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+body header {
+  align-items: center;
+}
+
+/* top navigation bar */
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  max-height: 45px;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.top-nav-items {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.top-nav-logo {
+  margin-left: 290px;
+  margin-right: 220px;
+}
+
+.top-nav-bttn {
+  margin: 5px;
+  background-color: #567b95;
+  border: 1px solid #567b95;
+  border-radius: 3px;
+  color: #fff;
+}
+
+/* article top */
+
+.introduction {
+  margin-top: 90px;
+  align-items: center;
+}
+
+.mid-nav {
+  border-top: 1px solid #ebebeb;
+  margin-left: 280px;
+  padding-top: 15px;
+}
+
+.art-title {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  max-width: 600px;
+  margin-left: 280px;
+  margin-right: 20px;
+}
+
+.header-img {
+  height: auto;
+  max-width: 1000px;
+  margin-left: 90px;
+}
+
+.fig-cap1 {
+  margin-left: 90px;
+  max-width: 800px;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* article text  area */
+
+.art-author,
+.art-date {
+  margin-left: 270px;
+}
+
+.art-h2 {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 20px;
+}
+
+.art-text {
+  margin-left: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  max-width: 600px;
+}
+
+#image-03 {
+  margin-left: 0;
+  width: 580px;
+  align-self: center;
+}
+
+.fig-cap2 {
+  max-width: 560px;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.art-foot-notes {
+  margin-left: 270px;
+  max-width: 560px;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.foot-notes-links {
+  color: rgb(102, 102, 102);
+}
+
+.art-nav {
+  max-width: 600px;
+  margin-left: 270px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.art-nav button {
+  display: block;
+}
+
+.soc-media {
+  margin: 7px;
+}
+
+/* editor's picks section */
+
+.editors-picks {
+  position: absolute;
+  padding-left: 0;
+  width: 210px;
+  height: auto;
+  float: right;
+  margin-left: 950px;
+  margin-top: 850px;
+}
+
+.editors-picks h4 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.editors-picks img {
+  display: block;
+  float: left;
+  padding: 7px;
+}
+
+.editors-picks a {
+  padding-top: 5px;
+  margin-right: 15px;
+  display: block;
+  width: 210px;
+  height: 80px;
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+/* inflation theory section */
+
+.inflation-theory {
+  width: 850px;
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-comment {
+  width: 212px;
+  height: 150px;
+  margin-top: 130px;
+  padding-right: 3px;
+  padding-left: 3px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.inflation-theory-caption {
+  margin-left: 200px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.infl-th-h3 {
+  margin-left: 200px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+.infl-th-comment {
+  margin-left: 200px;
+  width: 850px;
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+}
+
+/* additional topics */
+
+.additional-topics {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 290px 290px 290px 314px;
+  grid-template-rows: 365px 340px 340px;
+  grid-template-areas:
+    "first first first second"
+    "third third third second"
+    "third third third second";
+}
+
+.suggested-newsletters {
+  grid-area: first;
+  border-top: 1px solid #000;
+}
+
+.sugg-news-childs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggested-option {
+  width: 275px;
+  height: 280px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  line-height: 19px;
+  position: relative;
+}
+
+.just-for-now {
+  display: grid;
+  grid-template-columns: 82px auto 150px;
+  grid-template-rows: 82px 15px auto auto auto;
+  grid-template-areas: "img-area . bttn-area";
+}
+
+.sugg-opt-img {
+  grid-area: img-area;
+  margin: 10px;
+}
+
+.sugg-opt-buttn {
+  grid-area: bttn-area;
+  border: 2px solid #000;
+  background-color: #fff;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  justify-self: end;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.sugg-opt-p1 {
+  font-size: 12px;
+  margin: 2px 10px 2px 10px;
+}
+
+.suggested-option h3 {
+  margin: 2px 10px 2px 10px;
+  padding: 0;
+}
+
+.sugg-opt-p2 {
+  margin: 5px 10px auto 10px;
+  font-size: 19px;
+}
+
+.suggested-option a {
+  position: absolute;
+  bottom: 10px;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(50, 104, 145);
+}
+
+.most-popular {
+  grid-area: second;
+  border-top: 1px solid #000;
+  margin-left: 20px;
+}
+
+.most-popular p {
+  width: 313px;
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-top: 1px solid #ccc;
+}
+
+.most-popular a {
+  width: 313px;
+  font-size: 19px;
+  line-height: 23px;
+  color: #000;
+  text-decoration: none;
+}
+
+.space-astronomy {
+  border-top: 1px solid #000;
+  grid-area: third;
+}
+
+.space-astr-childs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.spac-astr-option {
+  width: 288px;
+}
+
+.cosmic-img {
+  margin-top: -15px;
+  margin-left: -34px;
+}
+
+.cosmic-figcap {
+  margin-left: -25px;
+  line-height: 20px;
+  color: #888;
+  font-size: 10px;
+  text-align: right;
+}
+
+.cosmic-title {
+  margin-left: 10px;
+}
+
+.cosmic-date {
+  margin-left: 10px;
+  color: #888;
+  font-size: 13px;
+}
+
+/* New York Times links lists */
+
+footer {
+  width: 1180px;
+  margin-left: 40px;
+  border-top: 1px solid #ccc;
+}
+
+.links-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.links-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-column a {
+  text-decoration: none;
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
+.subscribe {
+  width: 200px;
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+.subscribe-separator,
+#educ-rate {
+  border-bottom: 1px solid #ccc;
+}
+
+.subsc-img-anch a {
+  display: block;
+  margin-left: 20px;
+}
+
+.subsc-img-anch img {
+  display: block;
+  float: left;
+}
+
+.ttom-nyt-logo {
+  width: 185px;
+}
+
+.links-row {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+}
+
+.links-row a {
+  text-decoration: none;
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+/* New York Times links bar */
+
+.footer-nyt-links {
+  width: 1000px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nyt-links a {
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 9px;
+  padding: 10px 0;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
