@@ -4,7 +4,7 @@
 
 This is the first project in Microverse's HML and CSS module. It consists of a reproduction of the New York Times website. It displays the text, images and video of the original on the given day. Advertisements and many of the interactive elements have been left out.
 
-(![Screenshot NYT Page Clone](https://user-images.githubusercontent.com/68709712/112506080-a4634e80-8d4a-11eb-98b4-3ea29bc16dec.png)
+![Screenshot NYT Page Clone](https://user-images.githubusercontent.com/68709712/112506080-a4634e80-8d4a-11eb-98b4-3ea29bc16dec.png)
 
 
 ## Built With
@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **German Cobian**
 
 - GitHub: [@German-Cobian](https://github.com/German-Cobian)
-- Twitter: [@twitterhandle](https://twitter.com/GermanCobian3)
+- Twitter: [@GermanCobian3](https://twitter.com/GermanCobian3)
 - LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian)
 
 
@@ -58,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT] licensed.
+This project is [MIT](https://github.com/German-Cobian/New-York-Times-Page-Clone/blob/main/LICENSE) licensed.
