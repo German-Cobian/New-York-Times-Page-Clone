@@ -2,9 +2,11 @@
 
 # New-York-Times-Page-Clone
 
-This is the first project in Microverse's HML and CSS module. It consists of a reproduction of the New York Times website. It displays the text, images and video of the original on the given day. Advertisements and many of the interactive elements have been left out.
+This project consists of a reproduction of the New York Times website. It displays the text, images and video of the original on the given day. Advertisements and many of the interactive elements have been left out.
 
 ![Screenshot NYT Page Clone](https://user-images.githubusercontent.com/68709712/112506080-a4634e80-8d4a-11eb-98b4-3ea29bc16dec.png)
+
+In this project we implemented HTML tags, CSS and its associated tools (such as flex-box, floats and grid to properly give position and style to the diferent elements and sections of the page and make it look as similiar as possible to the original article page.
 
 
 ## Built With
