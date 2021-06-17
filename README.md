@@ -55,7 +55,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+Guidelines for this project were supplied by [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/positioning-and-floating-elements)
 
 
 ## 📝 License
