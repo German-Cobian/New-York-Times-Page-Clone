@@ -24,23 +24,23 @@ https://german-cobian.github.io/New-York-Times-Page-Clone/
 
 To get a local copy up and running follow these simple example steps.
 
-- Clone this repo on your local machine by running git clone git@github.com:German-Cobian/New-York-Times-Page-Clone.git
-- cd into the folder you just cloned
+* Clone this repo on your local machine by running `git clone git@github.com:German-Cobian/New-York-Times-Page-Clone.git`
+* `cd` into the `New-York-Times-Page-Clone` folder you just cloned
 
 
 ## Authors
 
 👤 **Miguel Gomez**
 
-- GitHub: [@MiguelArgentina](https://github.com/MiguelArgentina)
-- Twitter: [@Qete_arg](https://twitter.com/Qete_arg)
-- LinkedIn: [@miguelricardogomez](https://www.linkedin.com/in/miguelricardogomez)
+* GitHub: [@MiguelArgentina](https://github.com/MiguelArgentina)
+* Twitter: [@Qete_arg](https://twitter.com/Qete_arg)
+* LinkedIn: [@miguelricardogomez](https://www.linkedin.com/in/miguelricardogomez)
 
 👤 **German Cobian**
 
-- GitHub: [@German-Cobian](https://github.com/German-Cobian)
-- Twitter: [@GermanCobian3](https://twitter.com/GermanCobian3)
-- LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian)
+* GitHub: [@German-Cobian](https://github.com/German-Cobian)
+* Twitter: [@GermanCobian3](https://twitter.com/GermanCobian1)
+* LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian)
 
 
 ## 🤝 Contributing
